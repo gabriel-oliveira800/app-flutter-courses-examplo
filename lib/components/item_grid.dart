@@ -6,8 +6,15 @@ import 'header_grid.dart';
 
 class ItemGrid extends StatelessWidget {
   final Courser oneCourser;
+  final Function onTapOne;
+  final Function onTapTwo;
   final Courser twoCourser;
-  const ItemGrid({@required this.oneCourser, @required this.twoCourser});
+  const ItemGrid({
+    this.onTapOne,
+    this.onTapTwo,
+    @required this.oneCourser,
+    @required this.twoCourser,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -16,58 +23,64 @@ class ItemGrid extends StatelessWidget {
     return Row(
       children: <Widget>[
         Expanded(
-          child: Card(
-            color: oneCourser.color,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(radius),
-            ),
-            child: Column(
-              children: <Widget>[
-                Padding(
-                  child: HeaderGrid(
-                    name: oneCourser.user.name,
-                    avatar: oneCourser.user.avatar,
+          child: InkWell(
+            onTap: onTapOne,
+            child: Card(
+              color: oneCourser.color,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(radius),
+              ),
+              child: Column(
+                children: <Widget>[
+                  Padding(
+                    child: HeaderGrid(
+                      name: oneCourser.user.name,
+                      avatar: oneCourser.user.avatar,
+                    ),
+                    padding: const EdgeInsets.only(
+                      left: 4,
+                      top: 18,
+                      bottom: 18,
+                    ),
                   ),
-                  padding: const EdgeInsets.only(
-                    left: 4,
-                    top: 18,
-                    bottom: 18,
+                  BodyGrid(
+                    radius: radius,
+                    name: oneCourser.name,
+                    ponits: oneCourser.points,
                   ),
-                ),
-                BodyGrid(
-                  radius: radius,
-                  name: oneCourser.name,
-                  ponits: oneCourser.points,
-                ),
-              ],
+                ],
+              ),
             ),
           ),
         ),
         Expanded(
-          child: Card(
-            color: twoCourser.color,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(radius),
-            ),
-            child: Column(
-              children: <Widget>[
-                Padding(
-                  child: HeaderGrid(
-                    name: twoCourser.user.name,
-                    avatar: twoCourser.user.avatar,
+          child: InkWell(
+            onTap: onTapTwo,
+            child: Card(
+              color: twoCourser.color,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(radius),
+              ),
+              child: Column(
+                children: <Widget>[
+                  Padding(
+                    child: HeaderGrid(
+                      name: twoCourser.user.name,
+                      avatar: twoCourser.user.avatar,
+                    ),
+                    padding: const EdgeInsets.only(
+                      left: 4,
+                      top: 18,
+                      bottom: 18,
+                    ),
                   ),
-                  padding: const EdgeInsets.only(
-                    left: 4,
-                    top: 18,
-                    bottom: 18,
+                  BodyGrid(
+                    radius: radius,
+                    name: twoCourser.name,
+                    ponits: twoCourser.points,
                   ),
-                ),
-                BodyGrid(
-                  radius: radius,
-                  name: twoCourser.name,
-                  ponits: twoCourser.points,
-                ),
-              ],
+                ],
+              ),
             ),
           ),
         ),

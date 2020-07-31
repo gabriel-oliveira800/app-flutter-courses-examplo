@@ -50,14 +50,16 @@ class Account extends StatelessWidget {
             padding: EdgeInsets.symmetric(horizontal: horizontal),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.end,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
                   title,
+                  overflow: TextOverflow.ellipsis,
                   style: styleTitle ?? _titleStyleDefault,
                 ),
                 Text(
                   subtitle,
+                  overflow: TextOverflow.ellipsis,
                   style: styleSubtitle ?? _subtitleStyleDefault,
                 ),
               ],

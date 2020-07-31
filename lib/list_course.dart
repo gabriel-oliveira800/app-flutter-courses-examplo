@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'components/item_list.dart';
+import 'details_couser.dart';
 import 'model/Couser.dart';
 
 class ListCourse extends StatelessWidget {
@@ -16,7 +17,23 @@ class ListCourse extends StatelessWidget {
       child: ListView.builder(
         itemCount: coursers.length,
         scrollDirection: Axis.horizontal,
-        itemBuilder: (_, int index) => ItemList(courser: coursers[index]),
+        itemBuilder: (_, int index) {
+          return InkWell(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => DetailsCouser(
+                    courser: coursers[index],
+                  ),
+                ),
+              );
+            },
+            child: ItemList(
+              courser: coursers[index],
+            ),
+          );
+        },
       ),
     );
   }
