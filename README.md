@@ -2,6 +2,14 @@
 
 This is an app showing a course layout.
 
+![01](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/01.jpg);
+![02](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/02.jpg);
+![03](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/03.jpg);
+![04](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/04.jpg);
+![05](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/05.jpg);
+![06](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/06.jpg);
+![07](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/07.jpg);
+
 A new Flutter project.
 
 ## Getting Started
