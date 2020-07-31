@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'constants.dart';
 import 'list_course.dart';
+import 'recomention.dart';
 
 class Body extends StatelessWidget {
   final double radius;
@@ -38,6 +39,20 @@ class Body extends StatelessWidget {
               ),
             ),
             ListCourse(coursers: courser),
+            Padding(
+              padding: const EdgeInsets.symmetric(
+                vertical: 12.0,
+                horizontal: 24,
+              ),
+              child: Text(
+                'Para Você',
+                style: Theme.of(context)
+                    .textTheme
+                    .headline5
+                    .copyWith(color: Colors.black.withOpacity(0.75)),
+              ),
+            ),
+            Recomentaion(cousers: courser.reversed.toList()),
           ],
         ),
       ),
