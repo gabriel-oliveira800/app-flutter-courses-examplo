@@ -1,4 +1,6 @@
-# coursesApp
+# Course Sample App. 
+
+This is an app showing a course layout.
 
 A new Flutter project.
 
