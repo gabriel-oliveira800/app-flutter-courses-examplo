@@ -8,27 +8,17 @@ To start the app you can run the command `flutter install` to be able to use.
 
 To create new project you can run.
 
-
-``flutter create my-app
+```
+ flutter create my-app
  cd my-app
- flutter run``
-
-| 01                                                                                                      | 02                                                                   
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-|![01](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/01.jpg); |![02](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/02.jpg);|
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| 03                                                                                                      | 04                                                                   
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-|![03](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/03.jpg); |![04](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/04.jpg);|
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| 05                                                                                                      | 06
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-|![05](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/05.jpg); |![06](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/06.jpg); |
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| 07                                                                                                      | 01
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-|![07](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/07.jpg); |![01](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/01.jpg);|
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+ flutter run
+```
+| 01                        | 02                        |
+|---------------------------|---------------------------|
+| ![01](screenshots/01.jpg) | ![02](screenshots/02.jpg) |
+| ![03](screenshots/03.jpg) | ![04](screenshots/04.jpg) |
+| ![05](screenshots/02.jpg) | ![06](screenshots/06.jpg) |
+| ![07](screenshots/07.jpg) |
 
 
 A new Flutter project.
