@@ -2,7 +2,7 @@
 
 This is an app showing a course layout.
 
-<img src="screenshots/01.jpg>
+<img src="screenshots/01.jpg></img>
 | 01                                                                                                      | 02                                                                                                     |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 |![01](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/01.jpg); |![02](https://github.com/Gabriel-Oliveira55/app-flutter-courses-exemplo/blob/master/screenshots/02.jpg);|
