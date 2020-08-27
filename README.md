@@ -1,6 +1,19 @@
-# Course Sample App. 
+<h1 align="center">
+  <br>
+  <a href=""><img src="logo.png" alt="logo"></a>
+  <br>
+  Courses App 
+  <br>
+</h1>
 
-This is an app showing a course layout.
+ <h4 align="center">To start using the flutter you can access <a href="https://flutter.dev" target="_blank">Flutter</a>.</h4>
+ <h3>This is an app showing a course layout.</h3>
+
+ <p float="left">
+  <img src="screenshoot.png" width="100%">
+</p>
+
+![video](https://user-images.githubusercontent.com/60442055/90582502-4662fd00-e1a4-11ea-9247-3050a39f6371.gif)
 
 ## Manual setup
 To start the app you can run the command `flutter install` to be able to use.
@@ -13,25 +26,3 @@ To create new project you can run.
  cd my-app
  flutter run
 ```
-| 01                        | 02                        |
-|---------------------------|---------------------------|
-| ![01](screenshots/01.jpg) | ![02](screenshots/02.jpg) |
-| ![03](screenshots/03.jpg) | ![04](screenshots/04.jpg) |
-| ![05](screenshots/02.jpg) | ![06](screenshots/06.jpg) |
-| ![07](screenshots/07.jpg) |
-
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
